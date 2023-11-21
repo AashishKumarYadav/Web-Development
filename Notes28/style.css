@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 80vh;
+    width: 40vw;
+}
+
+.box{
+    background-color: blue;
+    height: 20px;
+    width: 30px;
+    animation: myAnimation 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes myAnimation{
+    from{
+        background-color: red;
+    }
+    to{
+        transform: translateX(100vw);
+        background-color: yellow;
+    }
+}

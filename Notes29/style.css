@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    border: 2px solid rgb(255, 30, 30);
+    height: 50vh;
+    width: 50vw;
+}
+
+img{
+    height: 50vh;
+    width: 50vw;
+    object-fit: cover;
+    object-position: top;
+    /* object-fit: contain; */
+}

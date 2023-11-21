@@ -1,0 +1,25 @@
+/* body{
+    /* background-color: antiquewhite; 
+} */
+
+.container{
+    background-color: rgb(135, 80, 80);
+    width: 50vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+.box{
+    background-color:blue;
+    width: 5vw;
+    height: 5vh;
+    transition-property: background-color transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+    background-color: blueviolet;
+}

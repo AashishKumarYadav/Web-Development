@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+
+nav ul li{
+    list-style: devanagari;
+    /* list-style-type: ""; */
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid black;
+}

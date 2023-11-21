@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    width: 44px;
+    height: 44px;
+    border: 2px solid black;
+    /* padding: 2px; */
+    margin: 2px;
+    /* transform: rotate(10deg); */
+    transform: translateX(45%) skew(30deg) translateY(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vh;
+    height: 100vh;
+    border: 2px solid red;
+}

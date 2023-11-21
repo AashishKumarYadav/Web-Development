@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.cyellow{
+    color: yellow;
+}
+
+.cred{
+    color: red;
+}
+
+[x=a]{
+    background-color: red;
+}
+
+h2{
+    color: blue !important;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box
+{
+    width: 15vw;
+    height: 40vw;
+    border: 2px solid black;
+    overflow: auto;
+    /* text-overflow: ellipsis; */
+}

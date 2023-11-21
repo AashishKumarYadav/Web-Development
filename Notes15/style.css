@@ -1,0 +1,30 @@
+bady{
+    background-color: antiquewhite;
+}
+
+.box{
+    border: 2px solid black;
+    /* width: 223px; */
+    width: 70vw;
+    margin: auto;  
+    /*auto only on inline element */
+    background-color: aqua;
+}
+
+.container{
+    border: 2px solid black;
+    /* width: 223px; */
+    width: 70vw;
+    margin: 25px auto;  
+    /*auto only on inline element */
+    background-color: aqua;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+*{
+    margin: 0;
+    padding: 2px;
+}

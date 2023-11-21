@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    background-color: blueviolet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    color: red;
+    padding: 10px;
+    margin: 35px;
+    border: 2px solid blue;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.box2{
+    color: greenyellow;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid rgb(210, 119, 59);
+    height: 200px;
+    box-sizing: border-box;
+}
